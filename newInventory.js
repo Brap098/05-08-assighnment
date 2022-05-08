@@ -11,3 +11,5 @@ function newInventory(){
     document.body.append(inventory)
     return inventory
 }
+
+
