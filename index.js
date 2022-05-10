@@ -52,3 +52,6 @@ move(newImage('assets/well.png')).to(380, 170)
 move(newItem('assets/sword.png')).to(200, 100)
 move(newItem('assets/shield.png')).to(220, 205)
 move(newItem('assets/staff.png')).to(310, 250)
+
+
+document.getElementById('assets/green-character/static.gif').style.zIndex =2; 

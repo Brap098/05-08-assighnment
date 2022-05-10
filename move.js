@@ -31,7 +31,8 @@ function move(element) {
             element.style.bottom = y + 'px'
         }
         
-        setInterval(moveCharacter, 1)
+        setInterval(moveCharacter, 3)
+
         
         document.addEventListener('keydown', function(e){
             if(e.repeat) return;
